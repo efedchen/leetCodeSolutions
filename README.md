@@ -2,9 +2,9 @@
 my solutions of leetCode problems
 
 List of resolved exercices:
-	__Easy: 
+	Easy: 
 	
-	__Medium:
-	3Sum - works too slow on big arrays; O(n3) complexity
+	Medium:
+	3Sum - works kinda well, but still needs to be tuned; O(n2) complexity
 	
-	__Hard:
+	Hard:
