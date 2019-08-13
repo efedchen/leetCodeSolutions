@@ -5,6 +5,7 @@ List of resolved exercices:
 	<H3>Easy:</H3> 
 	<ul>
 	<li> 2sum - with unsorted array; O(n) complexity; took ~3ms </li>
+	<li> 2sum - with sorted array; O(n) complexity</li>
 	</ul>
 	<H3>Medium:</H3>  
 	<ul>

@@ -11,7 +11,7 @@ import com.private_fedchenko.ElapsedTime;
 import java.util.HashMap;
 import java.util.Map;
 
-public class twoSum {
+public class TwoSum {
 
     public static ElapsedTime elapsedTime = new ElapsedTime();
 
@@ -23,16 +23,18 @@ public class twoSum {
 
         elapsedTime.saveEndTime();
         elapsedTime.measureElapsedTime();
+        System.out.println("Indices: ");
         for (int i = 0; i < resultList.length; i++) {
-            System.out.println(resultList[i]);
+            System.out.print(resultList[i] + " ");
         }
+        System.out.println();
         System.out.println("Elapsed time " + elapsedTime.getElapsedTime() + " ms");
 
     }
 
     public static int[] twoSum(int[] nums, int target) {
         if (nums.length < 2) {
-            return new int[]{};
+            throw new IllegalArgumentException("No two sum solution");
         }
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
