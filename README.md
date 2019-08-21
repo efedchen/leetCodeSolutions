@@ -11,6 +11,7 @@ List of resolved exercices:
 	<H3>Medium:</H3>  
 	<ul>
 	<li> 3Sum - works kinda well, but still needs to be tuned; O(n2) complexity; took ~51ms</li>
+	<li> Container with the most water; O(n) complexity</li>
 	</ul>
 	<H3>Hard:</H3> 
 	<ul>
