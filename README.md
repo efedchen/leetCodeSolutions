@@ -7,6 +7,7 @@ List of resolved exercices:
 	<li> 2sum - with unsorted array; O(n) complexity; took ~3ms </li>
 	<li> 2sum - with sorted array; O(n) complexity</li>
 	<li> Roman To Integer; O(n) complexity</li>
+	<li> Merge Two Sorted Lists; O(n) complexity</li>
 	</ul>
 	<H3>Medium:</H3>  
 	<ul>
